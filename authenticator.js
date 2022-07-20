@@ -122,11 +122,3 @@ class Authenticator {
 }
 
 module.exports = Authenticator;
-
-/*(async () => {
-    const session = await Authenticator.createSession('53941101042', '594565', 'norddefrance');
-    console.log(session);
-
-    await session.logout();
-    console.log(session)
-})();*/
